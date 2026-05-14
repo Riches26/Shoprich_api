@@ -8,7 +8,7 @@ TOKEN = os.getenv("BOT_TOKEN")
 
 bot = telebot.TeleBot(TOKEN)
 
-BASE = "http://127.0.0.1:5000"
+BASE = "https://shoprich-api.onrender.com"
 
 
 @bot.message_handler(commands=["start"])
